@@ -1,4 +1,4 @@
-mMAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
 MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
  
 def get_color_from_pair_number(pair_number):
@@ -22,6 +22,7 @@ def get_pair_number_from_color(major_color, minor_color):
   except ValueError:
     raise Exception('Minor index out of range')
   return major_index * len(MINOR_COLORS) + minor_index + 1
+ 
 def build_color_guide():
     manual = "Color Coding Reference:\n"
     for pair_number in range(1, len(MAJOR_COLORS) * len(MINOR_COLORS) + 1):
