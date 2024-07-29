@@ -1,6 +1,6 @@
-from Input import test_number_to_pair,test_pair_to_number
-from print import print_output
-from colors import build_color_guide
+from Req_inputs import test_number_to_pair,test_pair_to_number
+from Display_output import print_output
+from Different_colours import build_color_guide
  
  
 if __name__ == '__main__':
