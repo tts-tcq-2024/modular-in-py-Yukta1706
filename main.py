@@ -1,7 +1,5 @@
-from Req_inputs import test_number_to_pair,test_pair_to_number
-from Display_output import print_output
-from Different_colours import build_color_guide
- 
+from Test_cases import test_number_to_pair,test_pair_to_number
+from Colors import build_color_guide
  
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
